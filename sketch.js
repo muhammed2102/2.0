@@ -31,7 +31,7 @@ function preload(){
 function setup() {
  createCanvas(windowWidth,windowHeight);
   
-  backimg = createSprite(width/2,height-126,width,20);
+  backimg = createSprite(width/2,height-200,width,20);
   backimg.addImage(groundimg2)
   backimg.scale = 2;
   
