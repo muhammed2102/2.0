@@ -33,6 +33,7 @@ function setup() {
   
   backimg = createSprite(width/2,height-126,width,20);
   backimg.addImage(groundimg2)
+  backimg.scale = 2;
   
   
   Ash = createSprite(width-50,height-150,20,20);
